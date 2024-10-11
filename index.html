@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Explotion</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Spice Explosion" class="logo">
+        </div>
+        <h1>Spice Explotion</h1>
+        <h3>“El placer picante de lo dulce”</h3>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#quienes-somos">¿Quiénes Somos?</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><button onclick="viewCart()">Ver Carrito</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="carousel">
+        <div class="carousel-images">
+            <img src="images.jpeg" alt="Gomitas con chile" class="active">
+            <img src="con frutas.jpeg" alt="Gomitas con frutas">
+            <img src="perzonalizadas.jpeg" alt="Gomitas perzonalizadas">
+        </div>
+    </section>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="1.jpeg" alt="Producto 1">
+                <h3>Gomitas en vaso</h3>
+                <p>Gomitas de diferentes formas en vaso, la más simple de nuestra tienda.</p>
+                <button class="add-to-cart" onclick="addToCart('Gomitas en vaso')">Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="2.png" alt="Producto 2">
+                <h3>Personalizadas</h3>
+                <p>Gomitas personalizadas al gusto del cliente para cualquier fiesta, etc.</p>
+                <button class="add-to-cart" onclick="addToCart('Gomitas personalizadas')">Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="3.jpeg" alt="Producto 3">
+                <h3>Gomita picante quequeña</h3>
+                <p>Gomita preparada con picante en un recipiente pequeño para los que no comen tanto.</p>
+                <button class="add-to-cart" onclick="addToCart('Gomita picante quequeña')">Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="4.jpeg" alt="Producto 4">
+                <h3>Gomita preparada mediana</h3>
+                <p>Esta es una gomita preparada con ingredientes en las orillas del vaso mediano.</p>
+                <button class="add-to-cart" onclick="addToCart('Gomita preparada mediana')">Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="5.jpeg" alt="Producto 5">
+                <h3>Gomitas con manzana</h3>
+                <p>Esta gomita está combinada con manzana.</p>
+                <button class="add-to-cart" onclick="addToCart('Gomitas con manzana')">Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="6.jpeg" alt="Producto 6">
+                <h3>Paletas de gomitas</h3>
+                <p>Esta es una combinación de gomitas con paleta.</p>
+                <button class="add-to-cart" onclick="addToCart('Paletas de gomitas')">Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="7.jpeg" alt="Producto 7">
+                <h3>Cóctel  de gomitas </h3>
+                <p>Esto es gomitas en forma de coctel.</p>
+                <button class="add-to-cart" onclick="addToCart('Paletas de gomitas mediana')">Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="8.jpeg" alt="Producto 8">
+                <h3>Paletas de gomitas grande</h3>
+                <p>Esta es una combinación de gomitas con paleta.</p>
+                <button class="add-to-cart" onclick="addToCart('Paletas de gomitas grande')">Agregar al Carrito</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="quienes-somos">
+        <h2>¿Quiénes Somos?</h2>
+        <p>Spice Explosion es una empresa dedicada a transformar el mundo de los sabores, mezclando lo dulce con lo picante, y nos dedicamos a hacer lo que el cliente le guste.</p>
+    </section>
+
+    <footer>
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <div class="redes-social">
+                <a href="https://www.facebook.com/profile.php?id=61567015560891"><img src="facebook (1).png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/spice.explotion/?hl=esz"><img src="instagram.png" alt="Instagram"></a>
+                <a href="https://x.com/santostc1007?t=6zDl0gJ7ECKb3wbuMi36vQ&s=09"><img src="gorjeo.png" alt="Twitter"></a>
+            </div>
+        </section>
+        <p>Derechos reservados © 2024 Spice Explosion</p>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>
